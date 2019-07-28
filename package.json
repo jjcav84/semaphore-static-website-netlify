@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^2.3.31",
+    "gatsby-cli": "^2.0.19",
     "gatsby-image": "^2.0.40",
     "gatsby-plugin-feed": "^2.1.1",
     "gatsby-plugin-google-analytics": "^2.0.18",
@@ -49,6 +50,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
+    "gatsby": "./node_modules/.bin/gatsby",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
