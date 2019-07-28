@@ -23,6 +23,7 @@ blocks:
       jobs:
       - name: Build
         commands:
+          - npm i -g npm
           - checkout
           - cache restore node-modules-$(checksum package-lock.json),node-modules-
           # Replace this with command(s) that build your website:
